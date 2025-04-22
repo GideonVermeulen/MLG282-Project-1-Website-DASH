@@ -1,5 +1,5 @@
-dash
-tensorflow
-numpy
-dash-bootstrap-components
-gunicorn
+dash==2.0.0
+dash-bootstrap-components==1.0.0
+tensorflow==2.x.x
+numpy==1.x.x
+gunicorn==20.x.x
