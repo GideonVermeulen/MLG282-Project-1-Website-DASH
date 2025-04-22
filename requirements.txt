@@ -1,6 +1,6 @@
 dash==2.7.0
-dash-bootstrap-components==0.7.3  # Updated to a compatible version
+dash-bootstrap-components==0.13.0
 tensorflow==2.12.0
-numpy==1.26.0  # Compatible version for TensorFlow 2.12.0
+numpy==1.26.0
 gunicorn==20.1.0
 werkzeug==2.2.3
