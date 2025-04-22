@@ -1,5 +1,6 @@
-dash==2.0.0
-dash-bootstrap-components==1.0.0  # Dash Bootstrap Components version
-tensorflow==2.18.0
-numpy>=1.26.0
+dash==2.7.0
+dash-bootstrap-components==1.5.1
+tensorflow==2.12.0
+numpy==1.24.3
 gunicorn==20.1.0
+werkzeug==2.2.3

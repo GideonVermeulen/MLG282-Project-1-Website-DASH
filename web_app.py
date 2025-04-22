@@ -6,10 +6,8 @@ import numpy as np
 import dash_bootstrap_components as dbc
 import os
 
-# Load the model
 model = tf.keras.models.load_model('my_model.keras')
 
-# Grade class mapping
 grade_mapping = {
     0: 'A',
     1: 'B',
@@ -19,7 +17,7 @@ grade_mapping = {
 }
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY, '/static/css/styles.css'])
-server = app.server  # for deployment (Gunicorn, etc.)
+server = app.server
 
 app.layout = html.Div([
     html.Header([
